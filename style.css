@@ -2,11 +2,16 @@
     font-family: Myfont;
     src: url(../about_lab/Assets/Myfont-Regular.otf);
 }
-audio{
+a{
     border-width: 10px;
     border-color: lightcoral;
     border-style: solid;
     width: 100%;
+}
+a img{
+    display: block;
+    width: 60vw;
+    margin: auto;
 }
 p{
     margin: 20px 20px 2px 20px;
