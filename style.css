@@ -2,9 +2,6 @@
     font-family: Myfont;
     src: url(../about_lab/Assets/Myfont-Regular.otf);
 }
-img{
-    height: 75px;
-}
 audio{
     border-width: 10px;
     border-color: lightcoral;
@@ -31,8 +28,10 @@ h2{
 }
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    font-size: 2vw;
 }
 ul{
     display: flex;
@@ -67,17 +66,12 @@ li{
     height: 10vw;
 }
 footer{
-    font-size: 18px;
+    position: absolute;
+    bottom: 20px;
+    font-size: 1vw;
     font-family: 'Times New Roman', Times, serif;
     right: 30vw;
     left: 30vw;
     align-items: center;
     text-align: center;
-}
-.ME{
-    height: 6vw;
-    border-width: 5px;
-    border-color: lightcoral;
-    border-style: solid;
-    border-radius: 5px;
 }
