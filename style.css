@@ -1,0 +1,83 @@
+@font-face{
+    font-family: Myfont;
+    src: url(../about_lab/Assets/Myfont-Regular.otf);
+}
+img{
+    height: 75px;
+}
+audio{
+    border-width: 10px;
+    border-color: lightcoral;
+    border-style: solid;
+    width: 100%;
+}
+p{
+    margin: 20px 20px 2px 20px;
+}
+body{
+    background: lightcoral url(Assets/Bus_Fabric.jpg);
+    background-size: 13%;
+}
+p{
+    text-align: center;
+    font-weight: 500;
+    text-wrap: wrap;
+}
+.intro{
+    font-weight: 600;
+}
+h2{
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    right: 30vw;
+    left: 30vw;
+    justify-content: space-evenly;
+    padding:0px;
+}
+li{
+    padding: 10px;
+    font-family: Myfont;
+    font-size: 30px;
+}
+.main{
+    font-family: Myfont;
+    font-size: 27px;
+    margin: auto;
+    max-width: 75%;
+    border-color: lightcoral;
+    border-width: 5px;
+    border-radius: 5px;
+    background-color: lightcoral;
+    min-height: calc(100vh - 16px);
+}
+.Portfolio{
+    display: flex;
+    justify-content: center
+}
+.Portfolio img{
+    padding: 10px;
+    height: 10vw;
+}
+footer{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    right: 30vw;
+    left: 30vw;
+    align-items: center;
+    text-align: center;
+}
+.ME{
+    height: 6vw;
+    border-width: 5px;
+    border-color: lightcoral;
+    border-style: solid;
+    border-radius: 5px;
+}
