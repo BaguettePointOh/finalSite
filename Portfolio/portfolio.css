@@ -20,12 +20,6 @@ p{
     font-weight: 500;
     text-wrap: wrap;
 }
-.intro{
-    font-weight: 600;
-}
-h2{
-    text-align: center;
-}
 header{
     display: flex;
     justify-content: center;
@@ -33,20 +27,8 @@ header{
     text-align: center;
     font-size: 2vw;
 }
-ul{
-    display: flex;
-    list-style: none;
-    right: 30vw;
-    left: 30vw;
-    justify-content: space-evenly;
-    padding:0px;
-}
-li{
-    padding: 10px;
-    font-family: Myfont;
-    font-size: 30px;
-}
 .main{
+    position: relative;
     font-family: Myfont;
     font-size: 27px;
     margin: auto;
@@ -55,23 +37,16 @@ li{
     border-width: 5px;
     border-radius: 5px;
     background-color: lightcoral;
-    min-height: calc(100vh - 16px);
-}
-.Portfolio{
-    display: flex;
-    justify-content: center
-}
-.Portfolio img{
-    padding: 10px;
-    height: 10vw;
+    height: calc(100vh - 16px);
+    min-height: 51vw;
 }
 footer{
     position: absolute;
-    bottom: 20px;
+    bottom: 1vw;
     font-size: 1vw;
     font-family: 'Times New Roman', Times, serif;
-    right: 30vw;
-    left: 30vw;
+    right: 0;
+    left: 0;
     align-items: center;
     text-align: center;
 }
