@@ -1,20 +1,15 @@
 @font-face{
     font-family: Myfont;
-    src: url(../about_lab/Assets/Myfont-Regular.otf);
-}
-a{
-    border-width: 10px;
-    border-color: lightcoral;
-    border-style: solid;
-    width: 100%;
+    src: url(Assets/Myfont-Regular.otf);
 }
 a img{
     display: block;
     width: 60vw;
     margin: auto;
+    padding-top: 1vw;
 }
 p{
-    margin: 20px 20px 2px 20px;
+    margin: 2vw 2vw 1vw 2vw;
 }
 body{
     background: lightcoral url(Assets/Bus_Fabric.jpg);
@@ -52,6 +47,7 @@ li{
     font-size: 30px;
 }
 .main{
+    position: relative;
     font-family: Myfont;
     font-size: 27px;
     margin: auto;
@@ -60,7 +56,8 @@ li{
     border-width: 5px;
     border-radius: 5px;
     background-color: lightcoral;
-    min-height: calc(100vh - 16px);
+    height: calc(100vh - 16px);
+    min-height: 51vw;
 }
 .Portfolio{
     display: flex;
@@ -72,11 +69,11 @@ li{
 }
 footer{
     position: absolute;
-    bottom: 20px;
+    bottom: 1vw;
     font-size: 1vw;
     font-family: 'Times New Roman', Times, serif;
-    right: 30vw;
-    left: 30vw;
+    right: 0;
+    left: 0;
     align-items: center;
     text-align: center;
 }
