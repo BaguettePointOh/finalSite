@@ -2,14 +2,8 @@
     font-family: Myfont;
     src: url(../../FinalSite/Assets/Myfont-Regular.otf);
 }
-audio{
-    border-width: 10px;
-    border-color: lightcoral;
-    border-style: solid;
-    width: 100%;
-}
 p{
-    margin: 20px 20px 2px 20px;
+    margin: 1vw 1vw 0vw 1vw;
 }
 body{
     background: lightcoral url(../Assets/Bus_Fabric.jpg);
@@ -23,30 +17,37 @@ p{
 header{
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
-    font-size: 2vw;
+    font-size: 6vw;
 }
 .main{
     position: relative;
     font-family: Myfont;
-    font-size: 27px;
+    font-size: 2vw;
     margin: auto;
     max-width: 75%;
     border-color: lightcoral;
     border-width: 5px;
     border-radius: 5px;
     background-color: lightcoral;
-    height: calc(100vh - 16px);
-    min-height: 51vw;
 }
 footer{
-    position: absolute;
-    bottom: 1vw;
+    margin-top: 1vw;
+    padding-bottom: 1vw;
     font-size: 1vw;
     font-family: 'Times New Roman', Times, serif;
-    right: 0;
-    left: 0;
     align-items: center;
     text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+    height: 25vw;
+    margin-top: 2vw;
+}
+video{
+    display: block;
+    margin: auto;
+    height: 25vw;
+    margin-top: 2vw;
 }
