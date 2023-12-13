@@ -56,3 +56,13 @@ footer{
     min-height: 30vw;
     margin-top: 1vw;
 }
+.links{
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.links a{
+    padding: 20px;
+    text-align: center;
+}
